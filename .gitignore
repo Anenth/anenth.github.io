@@ -1,5 +1,9 @@
-node_modules
-dist
-.tmp
+_site
+.DS_Store
+.jekyll
+.bundle
 .sass-cache
-app/bower_components
+Gemfile
+Gemfile.lock
+node_modules
+package.json
