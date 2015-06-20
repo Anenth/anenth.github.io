@@ -1,0 +1,9 @@
+.row {
+  @extend .clearfix;
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}

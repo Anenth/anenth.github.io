@@ -1,0 +1,22 @@
+<footer class="post-footer row">
+    <section class="author col-6">
+        <h4 class="author__name">{{ site.name }}</h4>
+        <p class="author__desc">{{ site.description }}</p>
+        <div class="author__meta">
+            <span class="author__link icon-link"><a href="anenth.js.org">anenth.js.org</a></span>
+        </div>
+    </section>
+
+    <div class="share-page col-6">
+        <h5 class="share-page__title">Share this on</h5>
+        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
+          <span data-icon="ei-sc-twitter" data-size="s">Twitter</span>
+          </a>
+        <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
+          <span data-icon="ei-sc-facebook" data-size="s">Facebook</span>
+          </a>
+        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">
+          <span data-icon="ei-sc-google-plus" data-size="s">Google Plus</span>
+          </a>
+    </div>
+</footer>

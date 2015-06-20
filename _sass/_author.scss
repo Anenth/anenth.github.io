@@ -1,0 +1,17 @@
+.author {
+  text-align: left;
+
+  &__name {
+    margin: 0;
+  }
+
+  &__desc {
+    margin: 0;
+    color: $gray;
+    font-size: $font-small;
+  }
+
+  &__meta {
+    font-size: $font-small;
+  }
+}

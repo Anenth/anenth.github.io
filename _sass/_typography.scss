@@ -1,3 +1,13 @@
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+$font-small: 12px;
+
+body {
+  font: 14px/1.4 $helvetica;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
