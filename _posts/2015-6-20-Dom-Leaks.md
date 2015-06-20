@@ -46,8 +46,12 @@ There are different type of performance issue
     ![image](../images/2.domleak/2-snapshot-search.png)
     Sometime its difficult to make sense what the DOM tree is and where is it coming from but thats okay this is a time consuming work, skim through list of DOM tree try to make sense on your app.
 
-  6. Once you understand the DOM tree, Look at the Retainer view on the bottom.
+  6. Once you understand the DOM tree, Look at the Retainer view on the bottom. Retainers give you a detailed information about the selected DOM node. The Distance displays the distance to the root using the shortest simple path of nodes.
 
     Here is an example
     ![image](../images/2.domleak/3-retainer.png)
-    
+		Over here the dom is binded to a function and that function is the culprit. Over here is its a event listener. Fixing the issue will reduce the DOM leaks.
+
+   Here is an example for before and after the fix
+   ![image](../images/2.domleak/4-old-leak-dom.png)
+   ![image](../images/2.domleak/4-new-dom.png)

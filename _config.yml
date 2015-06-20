@@ -33,7 +33,7 @@ footer-links:
 
 
 # Your disqus shortname, entering this will enable commenting on posts
-disqus: anenthvishnu
+disqus: anenthv
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-43181096-1
@@ -53,9 +53,10 @@ baseurl: ""
 #
 
 markdown: redcarpet
+redcarpet:
+  extensions: [ "tables"]
 highlighter: pygments
 permalink: /:title/
-
 # The release of Jekyll Now that you're using
 version: v2.5.3
 
