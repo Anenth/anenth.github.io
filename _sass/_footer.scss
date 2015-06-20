@@ -11,6 +11,7 @@ footer {
 }
 
 .post-footer {
-  padding: $spacing-unit*3 0;
+  margin-top: $spacing-unit*2;
+  padding: $spacing-unit*4 0 $spacing-unit*6;
   border-top: 1px solid $lightGray;
 }

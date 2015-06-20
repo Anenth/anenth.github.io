@@ -1,17 +1,22 @@
 ---
 layout: default
 ---
-
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<header class="header-button">
+  <button class="btn-hover btn-hover--icon-left">
+    <span data-icon="ei-chevron-left" data-size="s"></span>
+    <span class="btn-hover__text">Back</span>
+  </button>
+</header>
+<article class="post post--expanded">
+  <h1 class="post__title">{{ page.title }}</h1>
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    {{ page.date | date: "%B %e, %Y" }}
   </div>
 
   <div class="entry">
     {{ content }}
   </div>
-  
+
   {% include footer.html %}
   {% include disqus.html %}
 </article>

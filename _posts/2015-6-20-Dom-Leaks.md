@@ -52,6 +52,8 @@ There are different type of performance issue
     ![image](../images/2.domleak/3-retainer.png)
 		Over here the dom is binded to a function and that function is the culprit. Over here is its a event listener. Fixing the issue will reduce the DOM leaks.
 
-   Here is an example for before and after the fix
-   ![image](../images/2.domleak/4-old-leak-dom.png)
-   ![image](../images/2.domleak/4-new-dom.png)
+    Here is an example for before and after the fix
+	  <div class="row">
+		  <div class="col-6">![image](../images/2.domleak/4-old-leak-dom.png)</div>
+		  <div class="col-6">![image](../images/2.domleak/4-new-dom.png)</div>
+	  </div>

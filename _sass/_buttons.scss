@@ -1,0 +1,37 @@
+.btn-reset {
+  background: transparent;
+  border: transparent;
+}
+
+.btn-hover {
+  @extend .btn-reset;
+
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px 10px;
+  border: transparent 1px solid;
+  color: $gray;
+  text-align: center;
+  font-size: $font-small;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all ease 0.3s;
+  cursor: pointer;
+  
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: $lightGray;
+    color: $darkerGray;
+  }
+
+  .icon {
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: -4px;
+  }
+
+  &--icon-left {
+    padding-left: 0;
+  }
+}

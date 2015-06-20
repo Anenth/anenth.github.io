@@ -1,11 +1,11 @@
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$helvetica: 'Open Sans',Helvetica, Arial, sans-serif;
+$helveticaNeue: 'Open Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
 $font-small: 12px;
 
 body {
-  font: 14px/1.4 $helvetica;
+  font: 18px/1.5 $helvetica;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -82,4 +82,9 @@ em, i {
 
 strong, b {
   font-weight: bold;
+}
+
+.date {
+  font-size: $font-small;
+  color: $gray;
 }
