@@ -57,3 +57,7 @@ There are different type of performance issue
 		  <div class="col-6">![image](../images/2.domleak/4-old-leak-dom.png)</div>
 		  <div class="col-6">![image](../images/2.domleak/4-new-dom.png)</div>
 	  </div>
+
+####Helpful links
+ - [Writing Fast Memory Efficient](http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/)
+ - [Memory Profiling](https://developer.chrome.com/devtools/docs/javascript-memory-profiling)
