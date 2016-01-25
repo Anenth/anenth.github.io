@@ -6,7 +6,7 @@
 name: Anenth
 
 # Short bio or description (displayed in the header)
-description: Product Lover, Front End Engineer, Web Analyst 
+description: Usability Specialist / Front End Engineer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: http://www.gravatar.com/avatar/a6433205a3eb9f458dcbd27d3ac2fa83.jpg?s=512
@@ -27,7 +27,7 @@ footer-links:
   linkedin: anenthvishnu
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: anenthV
+  twitter: anenthv
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: +AnenthVishnu
