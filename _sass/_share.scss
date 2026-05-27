@@ -1,24 +1,20 @@
 .share-page {
-  text-align: right;
   color: $gray;
 
   &__title {
     color: $gray;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0;
-    margin-left: 5px;
-  }
-
-  .icon {
-    fill: $gray;
+    margin-right: 8px;
   }
 
   a {
-    font-weight: 700;
-    color: $gray;
+    font-weight: 600;
+    color: $accent;
+    margin: 0 4px;
 
     &:hover {
-      border-bottom: 1px dashed #fff;
+      color: $accent-light;
     }
   }
 }

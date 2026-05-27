@@ -4,21 +4,37 @@
 //
 
 // Colors
-$blue: #4183C4;
+$accent: #6366f1;
+$accent-light: #818cf8;
+$blue: #6366f1;
 
 // Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
+$black: #111827;
+$darkerGray: #1f2937;
+$darkGray: #374151;
+$gray: #6b7280;
+$lightGray: #f3f4f6;
 $white: #fff;
-$secondary-color: #eee;
+$secondary-color: #f9fafb;
 $spacing-unit: 15px;
+$border-color: #e5e7eb;
 
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+// Dark mode
+@mixin dark-mode {
+  @media (prefers-color-scheme: dark) {
     @content;
   }
 }
