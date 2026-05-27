@@ -3,32 +3,33 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   color: $darkGray;
+
+  @include dark-mode {
+    background: #0f172a;
+    color: #e2e8f0;
+  }
 }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
-  padding: 0 10px;
+  padding: 0 20px;
   width: 100%;
 }
 
 img {
   max-width: 100%;
-}
-
-// Fixes images in popup boxes from Google Translate
-.gmnoprint img {
-  max-width: none;
+  border-radius: 8px;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $white;
+  background: $accent;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $white;
+  background: $accent;
 }

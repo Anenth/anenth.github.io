@@ -1,17 +1,31 @@
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  margin-top: 60px;
+  border-top: 1px solid $border-color;
+  background-color: $secondary-color;
+
+  @include dark-mode {
+    border-top-color: #1e293b;
+    background-color: #0f172a;
+  }
 }
 
 footer {
-  padding: 20px 0;
+  padding: 24px 0;
   text-align: center;
 }
 
+.footer-copy {
+  margin-top: 12px;
+  font-size: 13px;
+  color: $gray;
+}
+
 .post-footer {
-  margin-top: $spacing-unit*2;
-  padding: $spacing-unit*4 0 $spacing-unit*6;
-  border-top: 1px solid $lightGray;
+  margin-top: $spacing-unit*3;
+  padding: $spacing-unit*3 0 $spacing-unit*4;
+  border-top: 1px solid $border-color;
+
+  @include dark-mode {
+    border-top-color: #1e293b;
+  }
 }
